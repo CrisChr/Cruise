@@ -1,0 +1,55 @@
+.navbar {
+  height: auto;
+  border: 1px solid gainsboro;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.navbar > nav {
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar > nav > div {
+  width: 80px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  border-right-style: groove;
+  border-right: 1px solid gainsboro;
+  cursor: pointer;
+}
+
+.navbar > nav > div:nth-child(1) {
+  color: #00B4CF;
+  border-bottom: 3px solid #00B4CF;
+}
+
+input {
+  font-family: "cruise";
+  font-weight: normal;
+  font-style: normal;
+  height: 20px;
+  background: gainsboro;
+}
+
+.nav1 {
+  flex-grow: 1;
+  width: 200px;
+}
+
+.nav2 {
+  flex-grow: 7;
+}
+
+.nav3 {
+  flex-grow: 9;
+}
+
+.nav3 > i {
+  cursor: pointer;
+}

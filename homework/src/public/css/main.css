@@ -1,0 +1,8 @@
+.content-container {
+  width: 100px;
+  height: auto;
+  display: flex;
+  flex-grow: 8;
+  flex-direction: column;
+  justify-content: flex-start;
+}
