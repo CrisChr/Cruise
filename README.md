@@ -1,2 +1,0 @@
-# InterviewHomework
-Interview projects
