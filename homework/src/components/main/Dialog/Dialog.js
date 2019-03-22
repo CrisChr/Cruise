@@ -1,5 +1,5 @@
 import React from 'react'
-import 'css/dialog.css'
+import './dialog.css'
 
 export default class Dialog extends React.Component {
 	constructor(props){

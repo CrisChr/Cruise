@@ -2,7 +2,7 @@ import React from 'react'
 import Header from 'components/header/Header'
 import Menu from 'components/menu/Menu'
 import Main from 'components/main/Main'
-import 'css/page.css'
+import './page.css'
 
 export default class Page extends React.Component {
 	render() {

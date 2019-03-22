@@ -1,5 +1,5 @@
 import React from 'react'
-import 'css/badges.css'
+import './badges.css'
 
 export default class Badges extends React.Component {
 	render() {

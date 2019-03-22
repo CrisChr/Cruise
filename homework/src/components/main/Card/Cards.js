@@ -1,5 +1,5 @@
 import React from 'react'
-import CardDetails from 'components/main/CardDetails'
+import CardDetails from './CardDetails'
 import FetchData from 'utils/dataFetch'
 
 

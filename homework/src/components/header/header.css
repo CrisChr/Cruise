@@ -21,7 +21,7 @@
 }
 
 .avatar {
-  background-image: url("../images/photo.jpg");
+  background-image: url("./photo.jpg");
   background-size: 40px 40px;
   border-radius: 50%;
   display: block;

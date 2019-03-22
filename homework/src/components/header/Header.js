@@ -1,5 +1,5 @@
 import React from 'react'
-import 'css/header.css'
+import './header.css'
 import 'assets/font-icons/fonts.css'
 
 export default class Header extends React.Component {
@@ -8,7 +8,7 @@ export default class Header extends React.Component {
 			<header className="header-container">
 				<section className="item1"></section>
 				<section className="item2">
-					<img src="assets/logo/logo.svg" width="157" height="50"/>
+					<img src="src/components/header/logo.svg" width="157" height="50"/>
 				</section>
 				<section className="item3">
 					<span className="avatar">

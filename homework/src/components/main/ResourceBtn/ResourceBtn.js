@@ -1,5 +1,5 @@
 import React from 'react'
-import 'css/resource.css'
+import './resource.css'
 
 export default class ResourceBtn extends React.Component {
 	constructor(props){

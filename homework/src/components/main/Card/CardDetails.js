@@ -1,8 +1,8 @@
 import React from 'react'
-import ResourceBtn from 'components/main/ResourceBtn'
+import ResourceBtn from 'components/main/ResourceBtn/ResourceBtn'
 import UpdateData from 'utils/dataUpdate'
-import Dialog from 'components/main/Dialog'
-import 'css/cards.css'
+import Dialog from 'components/main/Dialog/Dialog'
+import './cards.css'
 
 export default class CardDetails extends React.Component {
 	constructor(props){
@@ -21,26 +21,26 @@ export default class CardDetails extends React.Component {
 			let imgUrl = ''
 			switch(item.os){
 			case 'windows':
-				imgUrl = 'assets/os-icons/windows.png'
+				imgUrl = 'src/components/main/Card/windows.png'
 				break
 			case 'ubuntu':
-				imgUrl = 'assets/os-icons/ubuntu.png'
+				imgUrl = 'src/components/main/Card/ubuntu.png'
 				break
 			case 'debian':
-				imgUrl = 'assets/os-icons/debian.png'
+				imgUrl = 'src/components/main/Card/debian.png'
 				break
 			case 'suse':
-				imgUrl = 'assets/os-icons/suse.png'
+				imgUrl = 'src/components/main/Card/suse.png'
 				break
 			case 'centos':
-				imgUrl = 'assets/os-icons/cent_os.png'
+				imgUrl = 'src/components/main/Card/cent_os.png'
 				break
 			default:
 				break
 			}
 			list.push(
 				<article className="card-list" key={item.id}>
-					<img src={imgUrl} alt="WindowsOS" height="80" width="80"/>
+					<img src={imgUrl} height="80" width="80"/>
 					<div style={{width:20}}></div>
 					<section className="details">
 						<section className="details-content">

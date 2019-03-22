@@ -11,7 +11,10 @@
         "Firefox",
         "safiri",
         "ubuntu",
-        "chrome"
+        "chrome",
+        "firefox",
+        "cetos",
+        "safari"
       ],
       "id": 1
     },
@@ -65,7 +68,12 @@
       "type": "physical",
       "ip": "192.168.1.110",
       "location": "/var/lib/cruise-agent",
-      "resources": [],
+      "resources": [
+        "chrome",
+        "firefox",
+        "ubuntu",
+        "safari"
+      ],
       "id": 5
     },
     {
@@ -76,8 +84,9 @@
       "ip": "192.168.1.103",
       "location": "/var/lib/cruise-agent",
       "resources": [
-        "Firefox",
-        "Safari"
+        "safari",
+        "chrome",
+        "ubuntu"
       ],
       "id": 6
     },

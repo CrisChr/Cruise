@@ -44,9 +44,9 @@ module.exports = {
   resolve: {
     alias: {
       "components": path.resolve(__dirname, './src/components/'),
-      "css": path.resolve(__dirname, './src/public/css'),
+      // "css": path.resolve(__dirname, './src/public/css'),
       "assets": path.resolve(__dirname, './assets/'),
-      "img": path.resolve(__dirname, './src/public/images'),
+      "img": path.resolve(__dirname, './src/components/main/Card/'),
       "utils": path.resolve(__dirname, './src/utils')
     }
   },
