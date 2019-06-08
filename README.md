@@ -4,7 +4,6 @@
 `npm start`
 
 - install app (you can open another terminal shell) </br>
-`cd homework/` </br>
 `npm install`
 
 ## Build app
