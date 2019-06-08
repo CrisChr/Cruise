@@ -13,8 +13,8 @@
 `npm start`
 
 ## Used
+- React
 - Webpack
-- Babel polyfill
-- CSS Flex layout
+- Babel
 - whatwg fetch api (support IE 11)
 - ESLint
