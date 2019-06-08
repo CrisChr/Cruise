@@ -1,0 +1,15 @@
+.main-container {
+  height: auto;
+  display: flex;
+  align-items: stretch;
+}
+
+.place-holder-1 {
+  width: 50px;
+  height: auto;
+}
+
+.place-holder-2 {
+  width: 20px;
+  height: auto;
+}
