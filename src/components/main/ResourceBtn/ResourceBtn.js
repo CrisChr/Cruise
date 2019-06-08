@@ -33,7 +33,7 @@ export default class ResourceBtn extends React.Component {
 			<section className="details-content">
 				<i className="icon-plus" onClick={(e) => this.openDialog(e)}></i>
 				<section className="resource-container">
-					{/* {this.getResources(this.props.resources)} */}
+					{this.getResources(this.props.resources)}
 				</section>
 				<section className="deny-container">
 					<section className="deny">

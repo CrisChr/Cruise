@@ -12,9 +12,7 @@
         "safiri",
         "ubuntu",
         "chrome",
-        "firefox",
-        "cetos",
-        "safari"
+        "Chrome"
       ],
       "id": 1
     },
@@ -43,7 +41,8 @@
         "Ubuntu",
         "Chrome",
         "firefox",
-        "safari"
+        "safari",
+        "Firefox"
       ],
       "id": 3
     },
@@ -57,7 +56,8 @@
       "resources": [
         "Firefox",
         "Safari",
-        "Ubuntu"
+        "Ubuntu",
+        "Chrome"
       ],
       "id": 4
     },
@@ -86,7 +86,9 @@
       "resources": [
         "safari",
         "chrome",
-        "ubuntu"
+        "ubuntu",
+        "Chrome",
+        "Ubuntu"
       ],
       "id": 6
     },
@@ -98,7 +100,6 @@
       "ip": "192.168.1.113",
       "location": "/var/lib/cruise-agent",
       "resources": [
-        "Firefox",
         "Safari",
         "Ubuntu"
       ],
@@ -112,8 +113,7 @@
       "ip": "192.168.1.111",
       "location": "/var/lib/cruise-agent",
       "resources": [
-        "Ubuntu",
-        "Chrome"
+        "Ubuntu"
       ],
       "id": 8
     }
